@@ -1,5 +1,5 @@
-require 'cosmos'
-require 'cosmos/script'
+require 'openc3'
+require 'openc3/script'
 
 id = subscribe_packets([['TEST', 'A_TLM']])
 

@@ -2,15 +2,15 @@
 
 # Create the overall gemspec
 spec = Gem::Specification.new do |s|
-  s.name = 'cosmos-test'
-  s.summary = 'Ball Aerospace COSMOS cosmos-test plugin'
+  s.name = 'openc3-test'
+  s.summary = 'OpenC3 openc3-test plugin'
   s.description = <<-EOF
-    cosmos-test plugin for deployment to COSMOS
+    openc3-test plugin for deployment to OpenC3
   EOF
   s.license = 'AGPL-3.0-only'
   s.authors = ['Anonymous']
   s.email = ['name@domain.com']
-  s.homepage = 'https://github.com/BallAerospace/COSMOS'
+  s.homepage = 'https://github.com/OpenC3/openc3'
   s.platform = Gem::Platform::RUBY
 
   time = Time.now.strftime("%Y%m%d%H%M%S")
