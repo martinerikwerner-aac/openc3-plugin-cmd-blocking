@@ -1,0 +1,5 @@
+TARGET TEST TEST
+
+INTERFACE TEST tcpip_client_interface.rb cosmos-505_cosmos-script-runner-api_1 12345 12345 10.0 nil
+  MAP_TARGET TEST
+  DONT_CONNECT
